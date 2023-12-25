@@ -6,7 +6,7 @@
 class script(object):
     START_TXT = """𝐇𝐞𝐥𝐥𝐨... {}
     
-𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/SMD_FiltSream_Bot><b>☔🇸 🇲 🇩 Ⱥᵾŧø ᶠⁱˡᵗᵉʳ Bot♣</b></a>
+𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/SMD_FiltSream_Bot><b>🍁🇸 🇲 🇩 Ⱥᵾŧø ᶠⁱˡᵗᵉʳ + 𝐒𝐫𝐞𝐚𝐦𝐁𝐨𝐭🎋</b></a>
 
 𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐌𝐞 𝐀𝐝𝐦𝐢𝐧.. 𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫
 
@@ -15,13 +15,13 @@ class script(object):
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b>✯ 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/SMD_FiltSream_Bot>☔♣</a>
+    ABOUT_TXT = """<b>✯ 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/SMD_FiltSream_Bot>🍁🇸 🇲 🇩 Ⱥᵾŧø ᶠⁱˡᵗᵉʳ + 𝐒𝐫𝐞𝐚𝐦𝐁𝐨𝐭🎋</a>
 ✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : <a href='https://t.me/SMD_Owner'>🍁𝐒𝐌𝐃_𝐎𝐰𝐧𝐞𝐫🍁</a>
 ✯ 𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : <a href='https://docs.pyrogram.org/'>💖 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 💖</a>
 ✯ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : <a href='https://www.python.org/download/releases/3.0/'>🎄𝐏𝐲𝐭𝐡𝐨𝐧 𝟑🎄</a>
 ✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : <a href='https://www.mongodb.com/'>🎄𝐌𝐨𝐧𝐠𝐨𝐝𝐛🎄</a>
 ✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 : 𝐕𝐏𝐒
-✯ 𝐁𝐮𝐢𝐥𝐝 𝐒𝐭𝐚𝐭𝐮𝐬 : 🎋 𝐒𝐭𝐚𝐛𝐥𝐞 🕸 </b>"""
+✯ 𝐁𝐮𝐢𝐥𝐝 𝐒𝐭𝐚𝐭𝐮𝐬 : 🎋 𝐒𝐭𝐚𝐛𝐥𝐞 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬 🕸 </b>"""
 
     SOURCE_TXT = """𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐧 𝐎𝐩𝐞𝐧-𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐁𝐲 @SMD_Owner
 
