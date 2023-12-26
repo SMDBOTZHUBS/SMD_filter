@@ -1579,18 +1579,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton("👇 𝐒𝐞𝐥𝐞𝐜𝐭 𝐘𝐨𝐮𝐫 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 👇", callback_data="laninfo")
         ], [
-            InlineKeyboardButton("தமிழ", callback_data="tamil_info"),
-            InlineKeyboardButton("English", callback_data="english_info"),
-            InlineKeyboardButton("हिंदी", callback_data="hindi_info")
+            InlineKeyboardButton("🍁தமிழ்🍁", callback_data="tamil_info"),
+            InlineKeyboardButton("🍁English🍁", callback_data="english_info"),
+            InlineKeyboardButton("🍁हिंदी🍁", callback_data="hindi_info")
         ], [
-            InlineKeyboardButton("മലയാളം", callback_data="malayalam_info"),
-            InlineKeyboardButton("اردو", callback_data="urdu_info"),
-            InlineKeyboardButton("বাংল", callback_data="bangladesh_info")
+            InlineKeyboardButton("🍁മലയാളം🍁", callback_data="malayalam_info"),
+            InlineKeyboardButton("🍁اردو🍁", callback_data="urdu_info"),
+            InlineKeyboardButton("🍁বাংল🍁", callback_data="bangladesh_info")
         ], [
-            InlineKeyboardButton("తెలుగ", callback_data="telugu_info"),
-            InlineKeyboardButton("ಕನ್ನಡ", callback_data="kannada_info"),
-            InlineKeyboardButton("ગુજરાતી", callback_data="gujarati_info"),
-            InlineKeyboardButton("🍁𝐁𝐚𝐜𝐤🎋", callback_data="start")
+            InlineKeyboardButton("🍁తెలుగ🍁", callback_data="telugu_info"),
+            InlineKeyboardButton("🍁ಕನ್ನಡ🍁", callback_data="kannada_info"),
+            InlineKeyboardButton("🍁ગુજરાતી🍁", callback_data="gujarati_info"),
+            InlineKeyboardButton("🌿𝐁𝐚𝐜𝐤💥", callback_data="start")
 
             ]]
             await client.edit_message_media(
@@ -1606,7 +1606,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "tele":
             btn = [[
-                    InlineKeyboardButton("🍁𝐁𝐚𝐜𝐤🎋", callback_data="help"),
+                    InlineKeyboardButton("🕸𝐁𝐚𝐜𝐤🐬", callback_data="help"),
                     InlineKeyboardButton("🍁𝐂𝐨𝐧𝐭𝐚𝐜𝐭🌲", url="telegram.me/SMD_Owner")
                   ]]
             await client.edit_message_media(
