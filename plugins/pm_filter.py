@@ -1406,12 +1406,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🎋', callback_data='start')
+            InlineKeyboardButton('🍁𝐇𝐨𝐦𝐞🎋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
+        elif query.data == "source":
+        await message.reply_sticker("CAACAgUAAxkBAAICCWT0DTaTV_jo7SuUTyn0U-kB1ah8AAKNCAACVFSBVMnweHMpxYfKMAQ")
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
