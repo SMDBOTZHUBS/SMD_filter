@@ -1382,11 +1382,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url=GRP_LNK),
-            InlineKeyboardButton('🎄𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞🎄', callback_data='source')
+            InlineKeyboardButton('🎋𝐒𝐭𝐚𝐭𝐬☘️​', callback_data='stats'),
+            InlineKeyboardButton('🍁𝐒𝐨𝐮𝐫𝐜𝐞🎄​', callback_data='source')
         ],[
-            InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='start'),
-            InlineKeyboardButton('🍁 𝐂𝐥𝐨𝐬𝐞 🍁', callback_data='close_data')
+            InlineKeyboardButton('🍁𝐒𝐌𝐃_𝐎𝐰𝐧𝐞𝐫☘️', callback_data='rendering_info')
+        ],[            
+            InlineKeyboardButton('🕸𝐇𝐨𝐦𝐞🐬', callback_data='start'),
+            InlineKeyboardButton('🦞𝐂𝐥𝐨𝐬𝐞🕸', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
