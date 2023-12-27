@@ -1401,10 +1401,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🍁', callback_data='start')
+            InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🎋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_sticker("CAACAgUAAxkBAAICA2Tz20g5tQOCaBAI2aSmvk-bB5BuAAK-BQACEKoRV-0vii1W3U89MAQ")
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.SOURCE_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🎋', callback_data='filters'),
