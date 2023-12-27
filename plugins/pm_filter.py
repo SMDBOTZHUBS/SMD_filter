@@ -1721,21 +1721,33 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
 )
     elif query.data == "sticker":
-            btn = [[
-                    InlineKeyboardButton("🍁𝐇𝐞𝐥𝐩🎋", callback_data="help"),
-                    InlineKeyboardButton("🍁𝐂𝐨𝐧𝐭𝐚𝐜𝐭🌲", url="telegram.me/SMD_Owner")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.STICKER_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+        buttons = [[
+            InlineKeyboardButton('🍁𝐇𝐞𝐥𝐩🎋', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.STICKER_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "rendering_info":
+        await query.answer(text=script.RENDERING_TXT, show_alert=True)
+
     elif query.data == "tamil_info":
             btn = [[
                     InlineKeyboardButton("🍁𝐇𝐨𝐦𝐞🎋", callback_data="start"),
