@@ -1404,7 +1404,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🍁𝐁𝐚𝐜𝐤🍁', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        elif query.data == "source":
         await message.reply_sticker("CAACAgUAAxkBAAICA2Tz20g5tQOCaBAI2aSmvk-bB5BuAAK-BQACEKoRV-0vii1W3U89MAQ")
     elif query.data == "manuelfilter":
         buttons = [[
