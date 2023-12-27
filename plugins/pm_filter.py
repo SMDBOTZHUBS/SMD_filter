@@ -1414,7 +1414,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-         elif query.data == "extra":
+    elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('⚙ 𝐀𝐝𝐦𝐢𝐧 𝐎𝐧𝐥𝐲​ ⚙', callback_data='admin')
         ],[
