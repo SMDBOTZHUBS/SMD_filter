@@ -1412,7 +1412,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "source":
         await message.reply_sticker("CAACAgUAAxkBAAICCWT0DTaTV_jo7SuUTyn0U-kB1ah8AAKNCAACVFSBVMnweHMpxYfKMAQ")
             InputMediaPhoto(random.choice(PICS))
-        )
         await query.message.edit_text(
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
