@@ -28,7 +28,6 @@ async def start(client, message):
                     InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url="https://t.me/+oZ27l2vnexphZTVl"),
                     InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/SAM_DUB_LEZHa')
                 ],[
-                  InlineKeyboardButton('🎄𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞🎄', callback_data='source')
                 ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url=CHNL_LNK)
                   ]]
@@ -47,13 +46,9 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🕸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💸', callback_data="shortlink_info"),
+                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url="https://t.me/+oZ27l2vnexphZTVl"),
                     InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/SAM_DUB_LEZHa')
                 ],[
-                    InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
-                    InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
-                ],[
-                  InlineKeyboardButton('🎄𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞🎄', callback_data='source')
                 ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url=CHNL_LNK)
                   ]]
@@ -79,7 +74,7 @@ async def start(client, message):
             [
                 InlineKeyboardButton("🎋 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ♠", url=invite_link.invite_link)
             ],[
-                InlineKeyboardButton('🤔 𝐖𝐡𝐲 𝐈𝐚𝐦 𝐉𝐨𝐢𝐧🤔', callback_data='sinfo')
+                InlineKeyboardButton('🤔 𝐖𝐡𝐲 𝐈𝐚𝐦 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🤔', callback_data='sinfo')
             ]
         ]
 
@@ -101,13 +96,9 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🕸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url=CHNL_LNK)
+                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url="https://t.me/+oZ27l2vnexphZTVl"),
+                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/SAM_DUB_LEZHa')
                 ],[
-                    InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
-                    InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
-                ],[
-                  InlineKeyboardButton('🎄𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞🎄', callback_data='source')
                 ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url=CHNL_LNK)
                   ]]
