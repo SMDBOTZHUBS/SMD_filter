@@ -31,6 +31,9 @@ async def start(client, message):
                     InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
                 ],[
+                    InlineKeyboardButton('💸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💶', callback_data='shortlink_info'),
+                    InlineKeyboardButton('🔎𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔍', switch_inline_query_current_chat='')
+        ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -54,8 +57,8 @@ async def start(client, message):
                     InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
                 ],[
-                    InlineKeyboardButton('☘️𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💶', callback_data='shortlink_info'),
-                    InlineKeyboardButton('🍁𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔎', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('💸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💶', callback_data='shortlink_info'),
+                    InlineKeyboardButton('🔎𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔍', switch_inline_query_current_chat='')
         ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url=CHNL_LNK)
                   ]]
@@ -109,6 +112,9 @@ async def start(client, message):
                     InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
                 ],[
+                    InlineKeyboardButton('💸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💶', callback_data='shortlink_info'),
+                    InlineKeyboardButton('🔎𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔍', switch_inline_query_current_chat='')
+        ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
@@ -355,8 +361,8 @@ async def start(client, message):
                 )
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
-        await asyncio.sleep(600)
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓❗️️❗️❗️</u></b>\n\n 𝐓𝐡𝐢𝐬 𝐌𝐨𝐯𝐢𝐞 𝐅𝐢𝐥𝐞𝐬/𝐕𝐢𝐝𝐞𝐨𝐬 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐢𝐧 <b><u> 𝟏𝟐 𝐇𝐨𝐮𝐫𝐬 </u> 🫥 <i></b> (𝐃𝐮𝐞 𝐭𝐨 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 𝐈𝐬𝐬𝐮𝐞𝐬) </i>.\n\n<b><i> 𝐏𝐥𝐞𝐚𝐬𝐞 𝐟𝐨𝐫𝐰𝐚𝐫𝐝 𝐭𝐡𝐢𝐬 𝐀𝐋𝐋 𝐅𝐢𝐥𝐞𝐬/𝐕𝐢𝐝𝐞𝐨𝐬 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐒𝐚𝐯𝐞𝐝 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬 𝐚𝐧𝐝 𝐒𝐭𝐚𝐫𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐭𝐡𝐞𝐫𝐞 </i></b>")
+        await asyncio.sleep(43000)
         for x in filesarr:
             await x.delete()
         await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")
@@ -365,7 +371,7 @@ async def start(client, message):
     elif data.startswith("files"):
         user = message.from_user.id
         if temp.SHORT.get(user)==None:
-            await message.reply_text(text="<b>Please Search Again in Group</b>")
+            await message.reply_text(text="<b> 𝐏𝐥𝐞𝐚𝐬𝐞 𝐒𝐞𝐚𝐫𝐜𝐡 𝐀𝐠𝐚𝐢𝐧 𝐢𝐧 𝐆𝐫𝐨𝐮𝐩 </b>")
         else:
             chat_id = temp.SHORT.get(user)
         settings = await get_settings(chat_id)
@@ -384,7 +390,7 @@ async def start(client, message):
                 )
             )
             await asyncio.sleep(1200)
-            await k.edit("<b>Your message is successfully deleted!!!</b>")
+            await k.edit("<b> 𝐘𝐨𝐮𝐫 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐢𝐬 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 !!!</b>")
             return
     user = message.from_user.id
     files_ = await get_file_details(file_id)           
@@ -396,7 +402,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b> 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐯𝐞𝐫𝐢𝐟𝐢𝐞𝐝 !\n 𝐊𝐢𝐧𝐝𝐥𝐲 𝐯𝐞𝐫𝐢𝐟𝐲 𝐭𝐨 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞 !</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -433,14 +439,14 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
-            await asyncio.sleep(600)
+            k = await msg.reply("<b><u>❗️❗️❗️𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓❗️️❗️❗️</u></b>\n\n 𝐓𝐡𝐢𝐬 𝐌𝐨𝐯𝐢𝐞 𝐅𝐢𝐥𝐞/𝐕𝐢𝐝𝐞𝐨 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐢𝐧 <b><u> 𝟏𝟐 𝐇𝐨𝐮𝐫𝐬 </u> 🫥 <i></b> (𝐃𝐮𝐞 𝐭𝐨 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 𝐈𝐬𝐬𝐮𝐞𝐬) </i>.\n\n<b><i> 𝐏𝐥𝐞𝐚𝐬𝐞 𝐟𝐨𝐫𝐰𝐚𝐫𝐝 𝐭𝐡𝐢𝐬 𝐅𝐢𝐥𝐞/𝐕𝐢𝐝𝐞𝐨 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐒𝐚𝐯𝐞𝐝 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬 𝐚𝐧𝐝 𝐒𝐭𝐚𝐫𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐭𝐡𝐞𝐫𝐞 </i></b>",quote=True)
+            await asyncio.sleep(43000)
             await msg.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+            await k.edit_text("<b> 𝐘𝐨𝐮𝐫 𝐅𝐢𝐥𝐞/𝐕𝐢𝐝𝐞𝐨 𝐢𝐬 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐝𝐞𝐥𝐞𝐭𝐞𝐝!!!\n\n 𝐂𝐥𝐢𝐜𝐤 𝐛𝐞𝐥𝐨𝐰 𝐛𝐮𝐭𝐭𝐨𝐧 𝐭𝐨 𝐠𝐞𝐭 𝐲𝐨𝐮𝐫 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐟𝐢𝐥𝐞 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
             return
         except:
             pass
-        return await message.reply('No such file exist.')
+        return await message.reply(' 𝐍𝐨 𝐬𝐮𝐜𝐡 𝐟𝐢𝐥𝐞 𝐞𝐱𝐢𝐬𝐭 .')
     files = files_[0]
     title = '@SAM_DUB_LEZHa  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
@@ -485,8 +491,8 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
-    await asyncio.sleep(600)
+    k = await msg.reply("<b><u>❗️❗️❗️𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓❗️️❗️❗️</u></b>\n\n 𝐓𝐡𝐢𝐬 𝐌𝐨𝐯𝐢𝐞 𝐅𝐢𝐥𝐞/𝐕𝐢𝐝𝐞𝐨 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐢𝐧 <b><u> 𝟏𝟐 𝐇𝐨𝐮𝐫𝐬 </u> 🫥 <i></b> (𝐃𝐮𝐞 𝐭𝐨 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 𝐈𝐬𝐬𝐮𝐞𝐬) </i>.\n\n<b><i> 𝐏𝐥𝐞𝐚𝐬𝐞 𝐟𝐨𝐫𝐰𝐚𝐫𝐝 𝐭𝐡𝐢𝐬 𝐅𝐢𝐥𝐞/𝐕𝐢𝐝𝐞𝐨 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐒𝐚𝐯𝐞𝐝 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬 𝐚𝐧𝐝 𝐒𝐭𝐚𝐫𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐭𝐡𝐞𝐫𝐞 </i></b>",quote=True)
+    await asyncio.sleep(43000)
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
     return
