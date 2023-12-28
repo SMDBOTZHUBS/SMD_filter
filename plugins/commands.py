@@ -335,7 +335,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b>𝐘𝐨𝐮 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐯𝐞𝐫𝐢𝐟𝐢𝐞𝐝 !\n 𝐊𝐢𝐧𝐝𝐥𝐲 𝐯𝐞𝐫𝐢𝐟𝐲 𝐭𝐨 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞 !</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -365,7 +365,7 @@ async def start(client, message):
         await asyncio.sleep(43000)
         for x in filesarr:
             await x.delete()
-        await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")
+        await k.edit_text("<b> 𝐘𝐨𝐮𝐫 𝐀𝐥𝐥 𝐅𝐢𝐥𝐞𝐬/𝐕𝐢𝐝𝐞𝐨𝐬 𝐢𝐬 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐝𝐞𝐥𝐞𝐭𝐞𝐝!!!</b>")
         return    
         
     elif data.startswith("files"):
@@ -464,7 +464,7 @@ async def start(client, message):
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to continue !</b>",
+            text="<b>𝐘𝐨𝐮 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐯𝐞𝐫𝐢𝐟𝐢𝐞𝐝 !\n 𝐊𝐢𝐧𝐝𝐥𝐲 𝐯𝐞𝐫𝐢𝐟𝐲 𝐭𝐨 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞 !!!</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
@@ -494,7 +494,7 @@ async def start(client, message):
     k = await msg.reply("<b><u>❗️❗️❗️𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓❗️️❗️❗️</u></b>\n\n 𝐓𝐡𝐢𝐬 𝐌𝐨𝐯𝐢𝐞 𝐅𝐢𝐥𝐞/𝐕𝐢𝐝𝐞𝐨 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐢𝐧 <b><u> 𝟏𝟐 𝐇𝐨𝐮𝐫𝐬 </u> 🫥 <i></b> (𝐃𝐮𝐞 𝐭𝐨 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 𝐈𝐬𝐬𝐮𝐞𝐬) </i>.\n\n<b><i> 𝐏𝐥𝐞𝐚𝐬𝐞 𝐟𝐨𝐫𝐰𝐚𝐫𝐝 𝐭𝐡𝐢𝐬 𝐅𝐢𝐥𝐞/𝐕𝐢𝐝𝐞𝐨 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐒𝐚𝐯𝐞𝐝 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬 𝐚𝐧𝐝 𝐒𝐭𝐚𝐫𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐭𝐡𝐞𝐫𝐞 </i></b>",quote=True)
     await asyncio.sleep(43000)
     await msg.delete()
-    await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+    await k.edit_text("<b> 𝐘𝐨𝐮𝐫 𝐅𝐢𝐥𝐞/𝐕𝐢𝐝𝐞𝐨 𝐢𝐬 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐝𝐞𝐥𝐞𝐭𝐞𝐝!!!\n\n 𝐂𝐥𝐢𝐜𝐤 𝐛𝐞𝐥𝐨𝐰 𝐛𝐮𝐭𝐭𝐨𝐧 𝐭𝐨 𝐠𝐞𝐭 𝐲𝐨𝐮𝐫 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐟𝐢𝐥𝐞 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
     return
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
@@ -767,8 +767,8 @@ async def settings(client, message):
         ]
 
         btn = [[
-                InlineKeyboardButton("Oᴘᴇɴ Hᴇʀᴇ ↓", callback_data=f"opnsetgrp#{grp_id}"),
-                InlineKeyboardButton("Oᴘᴇɴ Iɴ PM ⇲", callback_data=f"opnsetpm#{grp_id}")
+                InlineKeyboardButton(" Oᴘᴇɴ Hᴇʀᴇ ↓ ", callback_data=f"opnsetgrp#{grp_id}"),
+                InlineKeyboardButton(" Oᴘᴇɴ Iɴ PM ⇲ ", callback_data=f"opnsetpm#{grp_id}")
               ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -882,16 +882,16 @@ async def requests(bot, message):
         try:
             if REQST_CHANNEL is not None and len(content) >= 3:
                 btn = [[
-                        InlineKeyboardButton('View Request', url=f"{message.link}"),
-                        InlineKeyboardButton('Show Options', callback_data=f'show_option#{reporter}')
+                        InlineKeyboardButton('🍁𝐕𝐢𝐞𝐰 𝐑𝐞𝐪𝐮𝐞𝐬𝐭🎄', url=f"{message.link}"),
+                        InlineKeyboardButton('🕸𝐒𝐡𝐨𝐰 𝐎𝐩𝐭𝐢𝐨𝐧𝐬🌿', callback_data=f'show_option#{reporter}')
                       ]]
                 reported_post = await bot.send_message(chat_id=REQST_CHANNEL, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
                 success = True
             elif len(content) >= 3:
                 for admin in ADMINS:
                     btn = [[
-                        InlineKeyboardButton('View Request', url=f"{message.link}"),
-                        InlineKeyboardButton('Show Options', callback_data=f'show_option#{reporter}')
+                        InlineKeyboardButton('🍁𝐕𝐢𝐞𝐰 𝐑𝐞𝐪𝐮𝐞𝐬𝐭🎄', url=f"{message.link}"),
+                        InlineKeyboardButton('🕸𝐒𝐡𝐨𝐰 𝐎𝐩𝐭𝐢𝐨𝐧𝐬🌿', callback_data=f'show_option#{reporter}')
                       ]]
                     reported_post = await bot.send_message(chat_id=admin, text=f"<b>𝖱𝖾𝗉𝗈𝗋𝗍𝖾𝗋 : {mention} ({reporter})\n\n𝖬𝖾𝗌𝗌𝖺𝗀𝖾 : {content}</b>", reply_markup=InlineKeyboardMarkup(btn))
                     success = True
@@ -917,8 +917,8 @@ async def requests(bot, message):
         #chat = int(chat)'''
         link = await bot.create_chat_invite_link(int(REQST_CHANNEL))
         btn = [[
-                InlineKeyboardButton('Join Channel', url=link.invite_link),
-                InlineKeyboardButton('View Request', url=f"{reported_post.link}")
+                InlineKeyboardButton('🍁𝐕𝐢𝐞𝐰 𝐑𝐞𝐪𝐮𝐞𝐬𝐭🎄', url=link.invite_link),
+                InlineKeyboardButton('🕸𝐒𝐡𝐨𝐰 𝐎𝐩𝐭𝐢𝐨𝐧𝐬🌿', url=f"{reported_post.link}")
               ]]
         await message.reply_text("<b>Your request has been added! Please wait for some time.\n\nJoin Channel First & View Request</b>", reply_markup=InlineKeyboardMarkup(btn))
     
