@@ -32,7 +32,7 @@ async def start(client, message):
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
                 ],[
                     InlineKeyboardButton('💸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💶', callback_data='shortlink_info'),
-                    InlineKeyboardButton('🔎𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔍', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🔎𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔍', switch_inline_query_current_chat=query)
         ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url=CHNL_LNK)
                   ]]
@@ -58,7 +58,7 @@ async def start(client, message):
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
                 ],[
                     InlineKeyboardButton('💸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💶', callback_data='shortlink_info'),
-                    InlineKeyboardButton('🔎𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔍', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🔎𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔍', switch_inline_query_current_chat=query)
         ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url=CHNL_LNK)
                   ]]
@@ -113,7 +113,7 @@ async def start(client, message):
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
                 ],[
                     InlineKeyboardButton('💸𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲💶', callback_data='shortlink_info'),
-                    InlineKeyboardButton('🔎𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔍', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🔎𝐈𝐧𝐥𝐢𝐧𝐞 𝐒𝐞𝐚𝐫𝐜𝐡🔍', switch_inline_query_current_chat=query)
         ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url=CHNL_LNK)
                   ]]
